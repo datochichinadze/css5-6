@@ -1,0 +1,740 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+a:hover {
+    color: indigo;
+}
+
+
+
+/* header  */
+
+
+
+.headercontainer {
+    display: flex;
+    padding: 22px 208px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headerClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.hedClass {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+.BrandingClass {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+
+
+.headerpClass {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+
+.headerpClass img {
+    width: 20px;
+}
+
+
+.mianhed {
+    display: flex;
+    gap: 20px;
+}
+
+
+.buttondiv {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.buttonClass {
+    color: #414651;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+
+.buttonClass:hover {
+    color: #7F56D9;
+}
+
+
+
+.buttonsClass {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    border: none;
+    cursor: pointer;
+}
+
+
+.buttonsClass:hover {
+    color: #000;
+}
+
+
+
+.hed {
+    display: flex;
+    gap: 200px;
+}
+
+
+
+/* main */
+
+
+
+.miancontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+
+
+
+.mainfirstClass {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 96px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 12px 8px 8px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    max-width: 350px;
+    width: 100%;
+}
+
+
+.newClass {
+    color: #414651;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.mainClass {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    padding: 4px 8px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+}
+
+
+
+.Classmain {
+    display: flex;
+    gap: 4px;
+}
+
+
+
+.CheckClass {
+    color: #414651;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.BeautifulClass {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+
+
+.PowerfulClass {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 650px;
+    width: 100%;
+}
+
+
+
+.buttondivClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.demobutton {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+
+.demobutton p:hover {
+    color: #7F56D9;
+}
+
+
+
+.demoClass {
+    color: #414651;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+
+.singbutton {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background-color: #7F56D9;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.singbutton p:hover {
+    color: #000;
+}
+
+
+
+.singClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+/*  */
+
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgdiv img {
+    width: 100%;
+}
+
+
+/*  */
+
+
+
+.mianseconddiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+
+
+.seconddivClass p {
+    display: flex;
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.analyticsClass p {
+    display: flex;
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+
+
+.self-serveClass p {
+    display: flex;
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 850px;
+    width: 100%;
+}
+
+
+
+/*  */
+
+
+
+.paddingClass {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 320px;
+    padding: 12px 24px;
+    align-items: center;
+    border-right: 2px solid #535862;
+}
+
+
+
+.paddingparagrapClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.ShareClass {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.imgClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background-color: #FFF;
+}
+
+
+
+.WhetherClass {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 230px;
+    width: 100%;
+}
+
+
+.mainoneClass {
+    display: flex;
+}
+
+
+
+
+/*  */
+
+
+
+.miantwoClass {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.maintwo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+
+.UpgradeClass p {
+    color: #7F56D9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.pricingClass p {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+
+.SimpleClass p {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+.firstmianClass {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.miandivone {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    padding: 32px 32px 40px 32px;
+}
+
+
+
+.maindivoneimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+.maindivoneimg p {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+
+.miandivoneparagrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.mthClass {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+
+.BilledClass {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.twomainClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+
+.imgoneClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+
+.buttonstayl {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+
+.buttonstayl p:hover {
+    color: #000;
+}
+
+
+
+/*  */
+
+
+
+.lastmain {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mianlastClass {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    background-color: #53389E;
+}
+
+
+.imglastClass {
+    display: flex;
+    gap: 4px;
+}
+
+
+
+.lovepClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.mainplastClass {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.ReneeClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+
+.ProductClass {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.imgdivlast img {
+    width: 480px;
+    min-height: 448px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+
+
+/* footer */
+
+
+.footerClass {
+    width: 1440px;
+    padding: 24px 208px;
+    margin-top: 72px;
+}
+
+
+.footerdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footerimg {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.footerimg p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+
+
+.footerparagrapClass {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+.allpClass {
+    color: #535862;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+
+.allpClass:hover {
+    color: indigo;
+}
+
+
+
+.footerlast {
+    color: #717680;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
